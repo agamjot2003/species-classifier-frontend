@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tree Species Classifier</title>
+  </head>
+  <body>
+    <!-- React mounts ALL its components inside this single div.
+         The entire app lives here. The div starts empty —
+         React fills it in when JavaScript runs. -->
+    <div id="root"></div>
+
+    <!-- This tells the browser to load your React app.
+         Vite processes this file and bundles everything together. -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+```
+
+**What it does:** The one and only HTML page your app has. React is a Single Page Application — there's only ever one HTML file. React swaps content in and out of `<div id="root">` without ever reloading the page.
+
+---
+
+## File 5 — `.env`
+```
+VITE_API_URL=http://localhost:8000

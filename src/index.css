@@ -1,0 +1,7 @@
+/* These 3 lines are ALL you need.
+   They inject every Tailwind utility class into your app.
+   Without these, none of the bg-green-500, flex,
+   rounded-xl etc. classes do anything. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
