@@ -114,7 +114,7 @@ export default function App() {
       </main>
 
       <footer className="text-center py-8 text-xs text-gray-400">
-        Tree Species Classifier · Species prediction coming tomorrow
+        Tree Species Classifier
       </footer>
     </div>
   )
